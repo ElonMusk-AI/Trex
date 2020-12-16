@@ -71,6 +71,8 @@ function setup() {
 function draw() {
   background('yellow');
 
+  camera.position.x = trex.x+250;
+  camera.position.y - height/2;
   //trex.debug = true;
   //background(255);
   text("Score: "+ score, 500,50);
